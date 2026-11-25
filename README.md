@@ -1,5 +1,8 @@
 # Your First AI Employee: a personal social media agent
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Li-JJ/smm-agent/blob/main/notebooks/workshop.ipynb)
+
+
 A small, readable agent that learns your writing style, finds topics, drafts posts and comments in your voice,
 keeps a human approval step, and learns from your edits and results. LinkedIn first, X supported through config.
 
