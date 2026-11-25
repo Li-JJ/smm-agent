@@ -1,0 +1,11 @@
+Agree on monitoring inputs first. We learned that the hard way with a unit change upstream.
+---
+Good point on feedback loops. What did you cut first to get evaluation down to minutes?
+---
+This matches what I see with small teams. Fast iteration beats a bigger model almost every time.
+---
+Curious how you handle the cases where the reviewer disagrees with the metric. That is where it gets messy for us.
+---
+Clear and practical. The part about writing the eval before the prompt is worth printing out.
+---
+I would add one thing: log the failures you fix, not only the ones you find. The list teaches you more than the dashboard.

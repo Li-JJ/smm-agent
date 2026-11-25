@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" font-family="Helvetica, Arial, sans-serif">
+<rect width="1000" height="380" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#52606d"/></marker></defs>
+<text x="500" y="36" font-size="22" font-weight="bold" fill="#1f2933" text-anchor="middle">How the agent improves</text>
+<rect x="20" y="90" width="175" height="90" rx="12" fill="#e3f0ff" stroke="#2f6fba" stroke-width="2"/>
+<text x="107.5" y="129.66666666666666" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Agent drafts</text>
+<text x="107.5" y="149.66666666666666" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">post or comment</text>
+<rect x="215" y="90" width="175" height="90" rx="12" fill="#fde8ec" stroke="#c0392b" stroke-width="2"/>
+<text x="302.5" y="129.66666666666666" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">You review</text>
+<text x="302.5" y="149.66666666666666" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">approve, edit, reject</text>
+<rect x="410" y="90" width="175" height="90" rx="12" fill="#fff4d6" stroke="#b7791f" stroke-width="2"/>
+<text x="497.5" y="129.66666666666666" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">You publish</text>
+<text x="497.5" y="149.66666666666666" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">copy to LinkedIn</text>
+<rect x="605" y="90" width="175" height="90" rx="12" fill="#efe9fb" stroke="#6b46c1" stroke-width="2"/>
+<text x="692.5" y="129.66666666666666" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Log results</text>
+<text x="692.5" y="149.66666666666666" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">impressions, reactions</text>
+<rect x="800" y="90" width="175" height="90" rx="12" fill="#e5f6e8" stroke="#2f855a" stroke-width="2"/>
+<text x="887.5" y="119.66666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Learn</text>
+<text x="887.5" y="139.66666666666669" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">lessons from edits</text>
+<text x="887.5" y="159.66666666666669" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">and results</text>
+<line x1="195" y1="135" x2="215" y2="135" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="390" y1="135" x2="410" y2="135" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="585" y1="135" x2="605" y2="135" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="780" y1="135" x2="800" y2="135" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="300" y="280" width="400" height="70" rx="12" fill="#efe9fb" stroke="#6b46c1" stroke-width="2"/>
+<text x="500.0" y="309.6666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Memory</text>
+<text x="500.0" y="329.6666666666667" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">lessons and feedback feed the next draft</text>
+<path d="M 887 180 L 887 315 L 700 315" fill="none" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M 300 315 L 107 315 L 107 180" fill="none" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+</svg>

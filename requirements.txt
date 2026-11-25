@@ -1,0 +1,7 @@
+openai>=1.50
+openai-agents
+feedparser
+requests
+numpy
+pandas
+streamlit

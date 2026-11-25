@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Helvetica, Arial, sans-serif">
+<rect width="900" height="500" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#52606d"/></marker></defs>
+<text x="450" y="36" font-size="22" font-weight="bold" fill="#1f2933" text-anchor="middle">The tool calling loop</text>
+<rect x="30" y="80" width="190" height="70" rx="12" fill="#f1f3f5" stroke="#7b8794" stroke-width="2"/>
+<text x="125.0" y="109.66666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Messages</text>
+<text x="125.0" y="129.66666666666669" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">plus tool specs</text>
+<rect x="290" y="80" width="190" height="70" rx="12" fill="#e3f0ff" stroke="#2f6fba" stroke-width="2"/>
+<text x="385.0" y="109.66666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Model call</text>
+<text x="385.0" y="129.66666666666669" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">chat.completions</text>
+<polygon points="660,70 780,115 660,160 540,115" fill="#fff4d6" stroke="#b7791f" stroke-width="2"/>
+<text x="660" y="112" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Did the model</text>
+<text x="660" y="130" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">request tools?</text>
+<rect x="540" y="250" width="240" height="70" rx="12" fill="#e5f6e8" stroke="#2f855a" stroke-width="2"/>
+<text x="660.0" y="279.6666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Run the tool in Python</text>
+<text x="660.0" y="299.6666666666667" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">errors become text</text>
+<rect x="240" y="250" width="240" height="70" rx="12" fill="#e5f6e8" stroke="#2f855a" stroke-width="2"/>
+<text x="360.0" y="279.6666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Append results</text>
+<text x="360.0" y="299.6666666666667" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">as role "tool" messages</text>
+<rect x="710" y="380" width="160" height="60" rx="12" fill="#fde8ec" stroke="#c0392b" stroke-width="2"/>
+<text x="790.0" y="404.6666666666667" font-size="14" font-weight="bold" fill="#1f2933" text-anchor="middle">Final answer</text>
+<text x="790.0" y="424.6666666666667" font-size="14" font-weight="normal" fill="#1f2933" text-anchor="middle">JSON topics</text>
+<line x1="220" y1="115" x2="290" y2="115" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="480" y1="115" x2="540" y2="115" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="660" y1="160" x2="660" y2="250" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="678.0" y="205.0" font-size="13" font-weight="normal" fill="#52606d" text-anchor="middle">yes</text>
+<line x1="540" y1="285" x2="480" y2="285" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M 360 250 L 360 150" fill="none" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M 780 115 L 800 115 L 800 380" fill="none" stroke="#52606d" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="822" y="250" font-size="13" font-weight="normal" fill="#52606d" text-anchor="middle">no</text>
+<text x="450" y="480" font-size="13" font-weight="normal" fill="#52606d" text-anchor="middle">Repeat up to max_steps times. The loop ends when the model answers without tool calls.</text>
+</svg>

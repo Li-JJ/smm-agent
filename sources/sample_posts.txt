@@ -1,0 +1,50 @@
+Shipping a model is the easy part. Keeping it correct for six months is the job.
+
+We pushed a ranking model last spring and the offline metrics looked great. Three weeks later, click-through had dropped 4 percent and nobody could say why.
+
+The cause was a feature that quietly changed units upstream. We now alert on feature distributions before we alert on accuracy.
+
+Monitor inputs first. Outputs only tell you after the damage is done.
+---
+I interviewed 30 ML engineers this year. The strongest candidates all did one thing: they asked what the model does when it is wrong.
+
+Most people prepare to explain architectures. Few prepare to explain failure modes.
+
+If you want to stand out, bring one failure from your own work and walk through how you found it, what it cost, and what you changed.
+---
+Small teams do not need a bigger model. They need a smaller loop.
+
+Our best improvement this quarter came from cutting evaluation time from two days to twenty minutes. We ran four times more experiments and found the bug that three bigger models had been hiding.
+
+Speed of feedback beats size of model. Fix the loop first.
+---
+Hot take from our last planning meeting: write the eval before you write the prompt.
+
+If you cannot say how you will tell a good output from a bad one, you are not ready to build. You are ready to experiment, which is fine, but call it that.
+
+Ten test cases on a spreadsheet beat zero test cases and a clever prompt.
+---
+A founder asked me how to hire the first ML engineer. My answer was short.
+
+Hire someone who has shipped something ugly to real users and fixed it at 2 a.m. Skip the person with the perfect research record and no production scars.
+
+You can teach papers. It is much harder to teach judgment.
+---
+We removed 40 percent of our prompt last week and quality went up.
+
+Every sentence we had added over six months was a patch for a bug we no longer had. Prompts grow like old codebases. Nobody deletes anything.
+
+Schedule a prompt cleanup the way you schedule a refactor.
+---
+People ask whether AI will replace engineers. I see a different pattern on my team.
+
+The engineers who write clear specs get the most out of coding assistants. The ones who struggle to describe the problem struggle with the tools too.
+
+The skill that matters more every month is explaining what you want, precisely.
+---
+Three questions I ask before adding an agent to any workflow:
+1. Can a simple script do this?
+2. What happens when the agent is wrong?
+3. Who reviews the output, and how fast?
+
+If I cannot answer all three, I do not build it yet.
